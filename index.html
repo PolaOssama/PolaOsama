@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <title>Pola Osama - Personal Portfolio</title> -->
+  <meta property="og:title" content="Pola Osama's Portfolio">
+  <title>Pola's Portfolio</title>
+  <meta property="og:description" content="Junior Data Scientist and Web Scraper from Cairo, Egypt.">
+  <meta property="og:image"
+    content="https://raw.githubusercontent.com/AbdooMohamedd/AbdooMohamedd.github.io/master/my-image.png">
+  <meta property="og:url" content="https://abdoomohamedd.github.io/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Pola Osama's Portfolio">
+  <meta property="og:image:width" content="12000">
+  <meta property="og:image:height" content="6300">
+
+  <!-- Twitter Card tags (optional) -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Pola Osama's Portfolio">
+  <meta name="twitter:description" content="Junior Data Scientist and Software Engineer from Cairo, Egypt.">
+  <meta name="twitter:image"
+    content="https://raw.githubusercontent.com/AbdooMohamedd/AbdooMohamedd.github.io/master/my-image.png">
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar> <!-- Adjust width as needed -->
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar2.png" alt="Pola Osama" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h6 class="name" title="Abdelrahman Mohamed"><small>Pola Osama</small></h6>
+          <p class="title">Junior Software Engineer and Data Scientist</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="polaosama01@gmail.com" class="contact-link">polaosama01@gmail.com</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+201227922211" class="contact-link">+20 122 7922 211</a>
+            </div>
+          </li>
+
+          <!-- <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+              <time datetime="2002-12-12">Dec 12, 2002</time>
+            </div>
+          </li> -->
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Cairo, Egypt</address>
+            </div>
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/PolaOssama" class="social-link" title="GitHub" target="_blank">
+              <img src="./assets/images/github.png" alt="GitHub" width="24" height="24">
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/pola-osama-961a56193/" class="social-link" title="LinkedIn"
+              target="_blank">
+              <img src="./assets/images/linkedin.png" alt="LinkedIn" width="24" height="24">
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <!-- about text -->
+        <section class="about-text">
+          <p>
+            I am a Junior Software Engineer with a passion for data and technology. With one year of experience in the
+            automotive industry and a strong foundation in software development and data analysis, I am committed to
+            solving complex problems and delivering impactful solutions.
+
+            As a Data Science enthusiast, I continually explore the intersection of coding and analytics, leveraging
+            tools like Python and TensorFlow to uncover insights and create efficient workflows. My recent completion of
+            the "Python & TensorFlow: Deep Dive into Machine Learning" course has further honed my skills in machine
+            learning and AI.
+
+            Driven by curiosity and a desire to learn, I aim to grow as a professional and contribute to innovative
+            projects that push the boundaries of technology..
+          </p>
+
+          <!-- <p>
+          I bring the ability to transform complex data into actionable insights and accessible visualizations, 
+          providing businesses with meaningful, user-friendly solutions that drive informed decision-making.
+          </p> -->
+
+          <p>
+            Currently, Now I am expanding my skills in Azure, large language models (LLMs),
+            and prompt engineering to remain ahead of AI developments. I am passionate about learning,
+            creating innovative models, and taking on new challenges. Let's collaborate and bring your ideas to reality!
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/data-science2.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Science</h4>
+
+                <p class="service-item-text">
+                  Applying advanced techniques to analyze and interpret complex data, providing actionable insights and
+                  solutions.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/data-analysis2.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Analysis</h4>
+
+                <p class="service-item-text">
+                  Performing in-depth data analysis to uncover trends, patterns, and correlations, ensuring high-quality
+                  and accurate results.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/web-spider.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Software Engineering</h4>
+
+                <p class="service-item-text">
+                  Skilled in software engineering with experience in designing, developing, and maintaining software solutions, ensuring efficiency, scalability, and reliability
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/ML.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Machine Learning</h4>
+
+                <p class="service-item-text">
+                  Developing and deploying machine learning models to predict outcomes and enhance decision-making
+                  processes.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <!-- <time datetime="2021-06-14">1 Sep, 2024</time> -->
+
+
+
+            </div>
+
+
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - Skills
+        -->
+
+        <section class="skills-technologies">
+
+          <h3 class="h3 skills-title">Skills and Technologies</h3>
+
+          <ul class="skills-list">
+            <li class="skills-item">*  Data Science</li>
+            <li class="skills-item">* Python</li>
+            <li class="skills-item">* Software Engineering</li>
+            <li class="skills-item">* Pandas</li>
+            <li class="skills-item">* Data Analysis</li>
+            <li class="skills-item">* Git</li>
+            <li class="skills-item">* Scikit-Learn</li>
+            <li class="skills-item">* Excel</li>
+            <li class="skills-item">* Machine Learning</li>
+            <li class="skills-item">* Power BI</li>
+            <!-- Add more skills as needed -->
+          </ul>
+
+        </section>
+
+        <!-- <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+         <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>  -->
+
+
+        <!--
+          - Languages section
+        -->
+        <section class="skills-technologies">
+
+          <h3 class="h3 skills-title">Languages</h3>
+
+          <ul class="skills-list">
+            <li class="skills-item">- Arabic (Native)</li>
+            <li class="skills-item">- English (Upper Intermediate)</li>
+          </ul>
+
+        </section>
+
+
+      </article>
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+
+        <!-- Education -->
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Helwan University</h4>
+
+              <span>2019 — 2023</span>
+
+              <p class="timeline-text">
+                Studying Computer Science with a specialization in Software Engineering , gaining expertise in core CS
+                principles and data-driven technologies and Data Science.
+              </p>
+
+            </li>
+
+
+            <!-- <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">New york academy of art</h4>
+
+              <span>2006 — 2007</span>
+
+              <p class="timeline-text">
+                Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est
+                omnis..
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">High school of art and design</h4>
+
+              <span>2002 — 2004</span>
+
+              <p class="timeline-text">
+                Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur
+                magni dolores
+                eos.
+              </p>
+
+            </li> -->
+
+          </ol>
+
+        </section>
+
+        <!-- Experience -->
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Software Developer - Egyptian German Automotive</h4>
+
+              <span>Sep 2023 — Present</span>
+
+              <p class="timeline-text">
+                Analyze large datasets to generate insights into vehicle sales trends, customer preferences, and market
+                dynamics. </br>
+                Create dashboards for sales plans of Exeed Car and MB Cars, providing executives with real-time data on
+                performance metrics.</br>
+                Developed and customized Odoo modules to meet specific business requirements.</br>
+                Utilize SQL to manage and query databases, ensuring data integrity and accuracy for analytical projects
+                </br>
+              </p>
+
+            </li>
+
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Network Engineering Trainee - NTI</h4>
+
+              <span>May 2023 — May 2023</span>
+
+              <p class="timeline-text">
+                Completed comprehensive training in Network Engineering (CCNA) at NTI, focusing on network design,
+                configuration, troubleshooting, and security. Gained hands-on experience in implementing and managing
+                Cisco-based networks, enhancing my skills in routing, switching, and network protocols
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Data Analysis Trainee - ITI </h4>
+
+              <span>Aug 2022 — Dec 2022</span>
+
+              <p class="timeline-text">
+                Completed a comprehensive Data Analysis course, focusing on data manipulation, visualization, and
+                interpretation. Developed proficiency in analyzing datasets using tools like Python, Excel, and SQL, and
+                applying analytical techniques to solve real-world problems.
+              </p>
+
+            </li>
+
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Information Technology Trainee - Logistica </h4>
+
+              <span>Jul 2022 — Jul 2022</span>
+
+              <p class="timeline-text">
+                Test Infor Enterprise Resource Planning (ERP) system for financials, inventory, and supply chain,
+                Workday and Bonus Project budgeting system for budgeting and forecasting.
+              </p>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Artificial Intelligence Analysis Trainee - IBM </h4>
+
+              <span>Sep 2021 — Sep 2021</span>
+
+              <p class="timeline-text">
+                Developed and deployed machine learning model utilizing Python, TensorFlow, and scikit-learn to analyze
+                and interpret large datasets.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <!-- Certificates -->
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="document-text-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Certificates</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Applied Deep Learning</h4>
+
+              <span><b>Company:</b> Information Technology Institute</span>
+              <span><b>Date:</b> Nov 2024</span>
+              <a href="https://www.linkedin.com/in/pola-osama-961a56193/overlay/1731845346784/single-media-viewer/?profileId=ACoAAC2KKtkB_0qCPn8_1M-k2DaChQOTfhuaqUc"
+                target="_blank">View Certificate</a>
+
+              <p class="timeline-text">
+                This course provided an in-depth understanding of key deep learning concepts and techniques, including:
+                </br>
+
+                Recurrent Neural Networks (RNNs) </br>
+
+                Long Short-Term Memory (LSTM) </br>
+
+                Advanced AI models for sequential and time-series data </br>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Python & TensorFlow: Deep Dive into Machine Learning</h4>
+
+              <span><b>Company:</b> Udemy</span>
+              <span><b>Date:</b> Oct 2024</span>
+              <a href="https://www.udemy.com/certificate/UC-9ef71fd9-0ce1-4c68-9650-07c56faa73d8/"
+                target="_blank">View Certificate</a>
+
+              <p class="timeline-text">
+                Completed the 'Python & TensorFlow: Deep Dive into Machine Learning' course on Udemy. Learned data analysis, machine learning basics, and how to use Python and TensorFlow for practical application                </br>
+
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Calculus for Machine Learning and Data Science</h4>
+
+              <span><b>Company:</b> Coursera</span>
+              <span><b>Date: </b> Jan 2024</span>
+              <a href="https://www.coursera.org/account/accomplishments/verify/R2MTGGG7HK8Z?utm_source=mobile&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=course"
+                target="_blank">View Certificate</a>
+
+              <p class="timeline-text">
+                Studied Calculus for Machine Learning and Data Science, focusing on key calculus concepts such as differentiation and integration, with applications in optimizing machine learning models and data analysis
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Artificial Intelligence Analyst 2021 - Mastery Award</h4>
+
+              <span><b>Company:</b> IBM</span>
+              <span><b>Date: </b> Sep 2021</span>
+              <a href="https://www.credly.com/badges/66ac18ac-31bf-4834-a643-38ceb6ce4430?source=linked_in_profile"
+                target="_blank">View Certificate</a>
+
+              <p class="timeline-text">
+                Studied Calculus for Machine Learning and Data Science, focusing on key calculus concepts such as differentiation and integration, with applications in optimizing machine learning models and data analysis
+              </p>
+
+            </li>
+
+            <!-- <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Big data essential</h4>
+
+              <span>Company: NTI</span>
+              <span>Date: September 2023</span>
+              <a href="https://github.com/AbdooMohamedd/AbdooMohamedd.github.io/blob/master/certifications/Screenshot%202023-12-08%20153740.png" target="_blank">View Certificate</a>
+
+              <p class="timeline-text">
+              This course covered essential big data concepts, including storage, processing frameworks, and distributed technologies like Hadoop and Spark, for handling and analyzing large datasets.
+              </p>
+
+            </li> -->
+
+            <!-- Add more certificates here -->
+
+          </ol>
+
+        </section>
+
+        <!-- Skills -->
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Data Science</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Machine Learning</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Data Analysis</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Software Engineering</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+            <button class="filter-select" data-select>
+
+            </button>
+
+
+      
+
+            <!-- <li class="project-item  active" data-filter-item data-category="python software engineering">
+              <a href="https://github.com/AbdooMohamedd/Article-Summarizer-with-Gemini-API" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/summay.png" alt="Gemini Article Summarizer" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Gemini Article Summarizer</h3>
+
+                <p class="project-category">Python Software Engineering</p>
+
+              </a>
+            </li> -->
+
+          </ul>
+
+        </section>
+
+      </article>
+
+        
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+
+
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
